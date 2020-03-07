@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="2dp"
+    android:translationZ="100dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img_item_new_film"
+        android:src="@drawable/iphone_x_64gb"
+        android:layout_width="120dp"
+        android:elevation="30dp"
+        android:clipToPadding="true"
+        android:layout_height="180dp" />
+
+</RelativeLayout>

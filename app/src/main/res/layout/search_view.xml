@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SearchView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_bar"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:layout_marginHorizontal="11dp"
+    android:layout_marginTop="7dp"
+    android:background="@drawable/custom_search_view"
+    android:elevation="8dp"
+    android:gravity="start"
+    android:textAlignment="viewStart"
+    app:iconifiedByDefault="false"
+    app:queryHint="Bạn muốn tìm gì?"/>
