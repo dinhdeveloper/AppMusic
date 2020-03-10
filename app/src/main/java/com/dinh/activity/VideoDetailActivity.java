@@ -22,7 +22,6 @@ public class VideoDetailActivity extends AppCompatActivity implements UniversalV
 
     private static final String TAG = "VideoDetailActivity";
     private static final String SEEK_POSITION_KEY = "SEEK_POSITION_KEY";
-    private static final String VIDEO_URL = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
 
     private final PictureInPictureParams.Builder pictureInPictureParamsBuilder =
             new PictureInPictureParams.Builder();

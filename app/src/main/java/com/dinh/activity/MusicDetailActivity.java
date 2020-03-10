@@ -71,7 +71,7 @@ public class MusicDetailActivity extends AppCompatActivity {
         });
     }
     private void addEvents() {
-        mediaPlayer = MediaPlayer.create(this, R.raw.cuoinhaudi);
+        mediaPlayer = MediaPlayer.create(this, R.raw.anhthanhnien);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("mm:ss");
         txtTimeTotalSong.setText(simpleDateFormat.format(mediaPlayer.getDuration()) + ""); //lay tong thoi gian cua bai hat
         seekBarSong.setMax(mediaPlayer.getDuration());
