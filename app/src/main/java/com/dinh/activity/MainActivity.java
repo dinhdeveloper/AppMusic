@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //call xml
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+//        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register);
 
-        defauFragment(new HomeFragment());
-        addControls();
+//        defauFragment(new HomeFragment());
+//        addControls();
     }
 
     private void addControls() {
